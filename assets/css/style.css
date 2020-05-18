@@ -1019,18 +1019,39 @@ Home Section style
     background-size: cover;
     position: relative;
 }
+
+@media (max-width: 450px) {
+    .home{
+        background-position: center bottom;
+        background-size: 170% 170%;
+    }
+}
 .main_home{
     overflow: hidden;
     padding-top: 300px;
     padding-bottom: 230px;
     position: relative;
     z-index: 1;
+    
 }
+@media (max-width: 450px) {
+    .main_home{
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+}
+
 .home_text h1{
     font-family: 'Raleway', sans-serif;
-    font-size:4.286rem;
+    font-size: 4.286rem;
     font-weight: 700;
     line-height: 6.5rem;
+    
+}
+@media (max-width: 450px) {
+    .home_text h1{
+        font-size: 3rem!important;
+    }
 }
 
 
